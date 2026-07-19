@@ -1,7 +1,10 @@
-# Multiplication — Privacy Policy
+# Multiplication — Legal
 
-Public privacy policy for the Multiplication practice app.
+Public privacy policy and terms of use for the Multiplication practice app.
 
-**Live URL:** https://omriwil.github.io/multiplication-privacy/
+| Document | URL |
+| --- | --- |
+| Privacy | https://omriwil.github.io/multiplication-privacy/ |
+| Terms | https://omriwil.github.io/multiplication-privacy/terms.html |
 
 Contact: omri.multiplication@gmail.com
