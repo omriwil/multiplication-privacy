@@ -1,6 +1,6 @@
-# Multiplication — Legal
+# MultiPlay â€” Legal
 
-Public privacy policy and terms of use for the Multiplication practice app.
+Public privacy policy and terms of use for the MultiPlay practice app.
 
 | Document | URL |
 | --- | --- |
@@ -8,3 +8,5 @@ Public privacy policy and terms of use for the Multiplication practice app.
 | Terms | https://omriwil.github.io/multiplication-privacy/terms.html |
 
 Contact: omri.multiplication@gmail.com
+
+This site is generated from `www/privacy.html` and `www/terms.html` in the app repo via `npm run legal:sync`.
