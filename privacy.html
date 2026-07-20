@@ -6,137 +6,13 @@
 	<meta name="color-scheme" content="light">
 	<meta name="theme-color" content="#f0f6f1">
 	<title>Privacy Policy — MultiPlay</title>
-	<style>
-		:root {
-			--bg: #f0f6f1;
-			--border: #c5e0da;
-			--text: #16332e;
-			--text-muted: #4a6b64;
-			--accent: #0d8f7c;
-			--font-ui: "Segoe UI", system-ui, -apple-system, sans-serif;
-			--font-display: "Nunito", "Rubik", "Segoe UI", system-ui, -apple-system, sans-serif;
-		}
-
-		*,
-		*::before,
-		*::after {
-			box-sizing: border-box;
-		}
-
-		body {
-			margin: 0;
-			min-height: 100vh;
-			font-family: var(--font-ui);
-			background:
-				radial-gradient(ellipse 80% 60% at 50% -10%, rgba(13, 143, 124, 0.16), transparent),
-				var(--bg);
-			color: var(--text);
-			-webkit-font-smoothing: antialiased;
-		}
-
-		.privacy-page {
-			width: min(100%, 640px);
-			margin: 0 auto;
-			padding:
-				max(24px, env(safe-area-inset-top))
-				max(20px, env(safe-area-inset-right))
-				max(40px, env(safe-area-inset-bottom))
-				max(20px, env(safe-area-inset-left));
-		}
-
-		.privacy-page h1 {
-			margin: 0 0 8px;
-			font-family: var(--font-display);
-			font-size: clamp(1.75rem, 6vw, 2.25rem);
-			font-weight: 800;
-			letter-spacing: -0.02em;
-			line-height: 1.15;
-			color: var(--accent);
-		}
-
-		.privacy-meta {
-			margin: 0 0 28px;
-			color: var(--text-muted);
-			font-size: 0.9375rem;
-			line-height: 1.45;
-		}
-
-		.privacy-nav {
-			display: flex;
-			flex-wrap: wrap;
-			gap: 12px 20px;
-			margin: 0 0 28px;
-			font-size: 0.9375rem;
-		}
-
-		.privacy-nav a {
-			color: var(--accent);
-			font-weight: 700;
-			text-decoration-thickness: 1.5px;
-			text-underline-offset: 3px;
-		}
-
-		.privacy-nav a:focus-visible {
-			outline: 2px solid var(--accent);
-			outline-offset: 3px;
-			border-radius: 4px;
-		}
-
-		.privacy-page section {
-			margin: 0 0 28px;
-		}
-
-		.privacy-page h2 {
-			margin: 0 0 10px;
-			font-family: var(--font-display);
-			font-size: 1.125rem;
-			font-weight: 800;
-			color: var(--text);
-		}
-
-		.privacy-page p,
-		.privacy-page li {
-			margin: 0 0 10px;
-			font-size: 1rem;
-			line-height: 1.55;
-			color: var(--text);
-		}
-
-		.privacy-page ul {
-			margin: 0 0 10px;
-			padding-inline-start: 1.25rem;
-		}
-
-		.privacy-page li {
-			margin-bottom: 6px;
-		}
-
-		.privacy-page hr {
-			border: 0;
-			border-top: 1px solid var(--border);
-			margin: 36px 0;
-		}
-
-		.privacy-page a {
-			color: var(--accent);
-		}
-
-		[lang="he"] {
-			font-family: "Rubik", "Segoe UI", system-ui, -apple-system, sans-serif;
-		}
-	</style>
+	<link rel="stylesheet" href="css/legal-page.css">
 </head>
 <body>
-	<article class="privacy-page">
-		<nav class="privacy-nav" aria-label="Document links">
-			<a href="#en">English</a>
-			<a href="#he" lang="he">עברית</a>
-			<a href="terms.html">Terms of use</a>
-		</nav>
-
-		<section id="en" lang="en">
+		<main class="legal-page">
+		<section data-legal-lang="en" lang="en">
 			<h1>Privacy Policy</h1>
-			<p class="privacy-meta">
+			<p class="legal-meta">
 				App: <strong>MultiPlay</strong> (com.omriwil.multiplication)<br>
 				Operator: Omri Willheim<br>
 				Effective date: July 19, 2026
@@ -229,11 +105,11 @@
 			</section>
 		</section>
 
-		<hr>
+		<hr class="legal-lang-divider">
 
-		<section id="he" lang="he" dir="rtl">
+		<section data-legal-lang="he" lang="he" dir="rtl">
 			<h1>מדיניות פרטיות</h1>
-			<p class="privacy-meta">
+			<p class="legal-meta">
 				אפליקציה: <strong>MultiPlay</strong> (com.omriwil.multiplication)<br>
 				מפעיל: Omri Willheim<br>
 				תאריך תחולה: 19 ביולי 2026
@@ -324,6 +200,7 @@
 				</p>
 			</section>
 		</section>
-	</article>
+	</main>
+
 </body>
 </html>
