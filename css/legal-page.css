@@ -14,7 +14,7 @@
 	box-sizing: border-box;
 }
 
-body {
+body.legal-standalone {
 	margin: 0;
 	min-height: 100vh;
 	font-family: var(--font-ui);
@@ -23,6 +23,23 @@ body {
 		var(--bg);
 	color: var(--text);
 	-webkit-font-smoothing: antialiased;
+}
+
+.legal-overlay {
+	position: fixed;
+	inset: 0;
+	z-index: 100;
+	overflow-y: auto;
+	background:
+		radial-gradient(ellipse 80% 60% at 50% -10%, rgba(13, 143, 124, 0.16), transparent),
+		var(--bg);
+	color: var(--text);
+	font-family: var(--font-ui);
+	-webkit-font-smoothing: antialiased;
+}
+
+.legal-overlay[hidden] {
+	display: none;
 }
 
 .legal-top-bar {
