@@ -169,6 +169,13 @@ body.legal-standalone {
 	border-radius: 4px;
 }
 
+.legal-load-error {
+	margin: 24px 0 0;
+	font-size: 1rem;
+	line-height: 1.55;
+	color: var(--text-muted);
+}
+
 [lang="he"] {
 	font-family: "Rubik", "Segoe UI", system-ui, -apple-system, sans-serif;
 }
