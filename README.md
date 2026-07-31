@@ -9,4 +9,4 @@ Public privacy policy and terms of use for the MultiPlay practice app.
 
 Contact: omri.multiplication@gmail.com
 
-This site is generated from `www/privacy.html` and `www/terms.html` in the app repo via `npm run legal:sync`.
+This site is generated from `public/privacy.html` and `public/terms.html` in the app repo via `npm run legal:sync`.
